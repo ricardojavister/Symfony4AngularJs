@@ -1,0 +1,2 @@
+"https://{default}/": { type: upstream, upstream: "curso-backfront:http" }
+"http://{default}/": { type: redirect, to: "https://{default}/" }
